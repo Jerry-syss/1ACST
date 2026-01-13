@@ -3,7 +3,7 @@ window.onload = function()
     do
     {
         var password = window.prompt("請輸入密碼...");
-        if(password == '283123')
+        if(btoa(input) === 'MjgzMTIz')
         {
             window.location.href = './mater/mater.html';
         }
@@ -16,4 +16,5 @@ window.onload = function()
             alert("密碼錯誤！請重新輸入。");
         }
     }
+    while(true);
 }
