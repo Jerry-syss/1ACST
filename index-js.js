@@ -1,12 +1,12 @@
 while(true)
 {
-    var password = window.prompt("Please input password...");
+    var password = window.prompt("請輸入密碼...");
     if(password == '283123')
     {
-        Window.location.href = 'a/1ACST.html';
+        Window.location.href = 'mater/mater.html';
     }
     else
     {
-        alert("Wrong password! Please input again...");
+        alert("密碼錯誤! 請再次輸入...");
     }
 }
